@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainBody {
+    background-color: #F5EFFF;
+    height: 650px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#headingOne {
+    color: #A594F9;
+}
+
+#container {
+    height: 450px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+
+.inputfield {
+    font-size: 14px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #A594F9;
+    border-radius: 5px;
+    padding: 8px 14px 8px 14px;
+}
+
+input:focus {
+    outline: 3px solid #CDC1FF;
+}
+
+select {
+    padding: 6px 12px 6px 6px;
+    font-size: 16px;
+}
+
+#signupButton {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 8px 20px 8px 20px;
+    border: 2px solid #A594F9;
+    border-radius: 6px;
+}
