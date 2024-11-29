@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+          <div class="row_1">
+            <input
+              class="username"
+              type="text"
+              placeholder="Enter your name!"
+            />
+
+            <h3>Please Enter your marks!</h3>
+            Science
+            <input class="science" type="number" required />
+            Mathematics
+            <input class="math" type="number" required />
+            Physics
+            <input class="physics" type="number" required />
+            Chemistry
+            <input class="chemistry" type="number" required />
+            Computer
+            <input class="computer" type="number" required />
+
+            <h3>Total Marks: <span class="total">00</span></h3>
+
+            <h3>Average: <span class="averagemarks">00</span></h3>
+
+            <h3>Percentage: <span class="percentage">00</span></h3>
+        <div>
+          <button type="button" class="button" onclick="showDetails()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
