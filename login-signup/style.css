@@ -1,5 +1,5 @@
 body {
-    font-family: 'Hack Nerd Font', Arial, sans-serif;
+    font-family: "Hack Nerd Font", Arial, sans-serif;
     background: linear-gradient(to right, #f2f2f2, #d9d9d9);
     display: flex;
     justify-content: center;
@@ -25,15 +25,20 @@ body {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 h2 {
     margin-bottom: 20px;
     color: #333;
     font-size: 24px;
-    font-family: 'Hack Nerd Font', 'Helvetica Neue', sans-serif;
+    font-family: "Hack Nerd Font", "Helvetica Neue", sans-serif;
     font-weight: 300;
 }
 
@@ -63,7 +68,7 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border-color: #4CAF50;
+    border-color: #4caf50;
     outline: none;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
@@ -71,14 +76,14 @@ input[type="password"]:focus {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #4caf50;
     border: none;
     border-radius: 4px;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-family: 'Hack Nerd Font', 'Helvetica Neue', sans-serif;
+    font-family: "Hack Nerd Font", "Helvetica Neue", sans-serif;
     font-weight: 600;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -86,7 +91,7 @@ button {
 button:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
-};
+}
 
 button:hover {
     background-color: #45a049;
@@ -100,7 +105,7 @@ button:hover {
 }
 
 .forgot-password a {
-    color: #4CAF50;
+    color: #4caf50;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -108,24 +113,22 @@ button:hover {
 
 .forgot-password a:hover {
     text-decoration: underline;
-    color: #388E3C;
+    color: #388e3c;
 }
 
-#noAcc{
-    color:#4CAF50;
-
+#noAcc {
+    color: #4caf50;
 }
 
-#createHere{
+#createHere {
     color: darkgreen;
     text-decoration: none;
 }
 
-#createHere:hover{
+#createHere:hover {
     text-decoration: underline;
-    color: #4CAF50;
+    color: #4caf50;
 }
-
 
 @media (max-width: 600px) {
     .login-container {

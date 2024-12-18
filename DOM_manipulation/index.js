@@ -1,13 +1,10 @@
-const head = document.getElementById("heading")
+const head = document.getElementById("heading");
 console.log(head);
 
+const paragraph = document.getElementById("paragraph");
 
-
-
-const paragraph = document.getElementById("paragraph")
-
-const highlightButton = document.querySelector("#highlight")
-const toggleClass = document.querySelector("#toggle-class-button")
+const highlightButton = document.querySelector("#highlight");
+const toggleClass = document.querySelector("#toggle-class-button");
 const addItem = document.querySelector("#add-list-item");
 const removeItem = document.querySelector("#remove-list-item");
 const doSomething = document.querySelector("#doSomething");
@@ -44,7 +41,7 @@ doSomething.addEventListener("click", () => {
     for (let i = 0; i < listItems.length; i++) {
         let item = listItems[i];
         item.style.color = `rgb(${Math.floor(Math.random() * 256)},${Math.floor(
-            Math.random() * 256
+            Math.random() * 256,
         )},${Math.floor(Math.random() * 256)})`;
     }
 });

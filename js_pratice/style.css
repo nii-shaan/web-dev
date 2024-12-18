@@ -1,122 +1,122 @@
 body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: #c7c7c7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row_1 {
-  width: 800px;
-  background-color: rgb(235, 235, 235);
-  border-radius: 20px;
-  /* margin-top: 2%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    width: 800px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    /* margin-top: 2%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .username {
-  /* background: none; */
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
+    /* background: none; */
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
 }
 
 .email {
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 .science {
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 .math {
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 .physics {
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 .computer {
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 input {
-  max-width: 300px;
+    max-width: 300px;
 }
 
 .chemistry {
-  display: flex;
-  border: 0;
-  outline: 0;
-  height: 20px;
-  width: 50%;
-  border: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 2%;
-  padding: 8px 15px;
-  margin-bottom: 2%;
+    display: flex;
+    border: 0;
+    outline: 0;
+    height: 20px;
+    width: 50%;
+    border: 1px solid;
+    font-size: 0.9rem;
+    margin-top: 2%;
+    padding: 8px 15px;
+    margin-bottom: 2%;
 }
 
 .button {
-  background-color: #c9c9c9;
-  margin-top: 20px;
-  font-size: 17px;
-  padding: 12px 30px;
-  cursor: pointer;
-  border-radius: 12px;
-  border: 2px solid green;
-  color: black;
-  font-weight: 600;
-  /* box-shadow: ; */
+    background-color: #c9c9c9;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid green;
+    color: black;
+    font-weight: 600;
+    /* box-shadow: ; */
 }
