@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+
+<body>
+
+    <p>Total Clicks: <span id="click-count">0</span></p>
+
+    <button id="increase-count">Increase</button>
+    <button id="decrease-count">Decrease</button>
+    <button id="reset">Reset</button>
+
+
+    <script>
+
+        const display = document.querySelector("#click-count")
+        const increaseBtn = document.querySelector("#increase-count")
+        const decreaseBtn = document.querySelector("#decrease-count")
+        const resetBtn = document.getElementById("reset")
+
+
+        increaseBtn.addEventListener("click", () => {
+            display.innerHTML = Number(display.innerHTML) + 1;
+
+        })
+
+
+        decreaseBtn.addEventListener("click", () => {
+            display.innerHTML = Number(display.innerHTML) - 1;
+
+        })
+
+
+        resetBtn.addEventListener("click", () => {
+            display.innerHTML = 0;
+        })
+
+    </script>
+
+</body>
+
+</html>
